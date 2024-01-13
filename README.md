@@ -6,6 +6,7 @@ Main Article: [How to match DeepMind’s Deep Q-Learning score in Breakout](http
 Main code: [DQN](https://github.com/fg91/Deep-Q-Learning)
 
 To create virtual env on mac silicon use [this](https://github.com/conda/conda/issues/12206) 
+
 ->## create empty environment
 ->conda create -n py37
 
