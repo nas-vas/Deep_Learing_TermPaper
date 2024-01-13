@@ -7,19 +7,19 @@ Main code: [DQN](https://github.com/fg91/Deep-Q-Learning)
 
 To create virtual env on mac silicon use [this](https://github.com/conda/conda/issues/12206) 
 
-## create empty environment
+#### create empty environment
 
 conda create -n py37
 
-## activate
+#### activate
 
 conda activate py37
 
-## use x86_64 architecture channel(s)
+#### use x86_64 architecture channel(s)
 
 conda config --env --set subdir osx-64
 
-## install python, numpy, etc. (add more packages here...)
+#### install python, numpy, etc. (add more packages here...)
 
 conda install python=3.7
 
