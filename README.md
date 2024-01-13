@@ -9,11 +9,11 @@ To create virtual env on mac silicon use [this](https://github.com/conda/conda/i
 
 #### create empty environment
 
-conda create -n py37
+conda create -n py36
 
 #### activate
 
-conda activate py37
+conda activate py36
 
 #### use x86_64 architecture channel(s)
 
@@ -21,7 +21,7 @@ conda config --env --set subdir osx-64
 
 #### install python, numpy, etc. (add more packages here...)
 
-conda install python=3.7
+conda install python=3.6
 
 ### Main ideas
 The main idea is to start by explaining the history of deep learning and how computer games, whether or not they are related to computers, serve as one of the main building blocks behind new and old deep learning ideas. The first step is to train the agent to play Atari games such as 'Pong' and 'Breakout,' and if time permits, I will explore various Atari and other games.
