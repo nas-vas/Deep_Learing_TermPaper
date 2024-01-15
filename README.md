@@ -31,3 +31,17 @@ The main idea is to start by explaining the history of deep learning and how com
 2. [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
 3. [Deep Q-Learning Tutorial: minDQN](https://towardsdatascience.com/deep-q-learning-tutorial-mindqn-2a4c855abffc)
 
+### Tips:
+To ensure the code works, first, create a virtual environment (venv) with Python 3.6. Install the required packages from the notebook, particularly TensorFlow, as there is an issue with Python 3.7 compatibility. Afterwards, update Python to version 3.7 because Gym won't work on version 3.6. Additionally, upgrade Gym to version 0.21.0 using the command:
+
+pip install --upgrade gym==0.21.0
+
+Due to compatibility issues with the TensorFlow version, use the following import statement:
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+There may be a few other minor packages to install, but these errors can typically be resolved with a quick Google search. These dependencies are contingent on the libraries installed previously like this:
+conda install tensorflow-estimator=2.1.0
+pip install ale-py
+pip install gym[atari,accept-rom-license]==0.21.0
