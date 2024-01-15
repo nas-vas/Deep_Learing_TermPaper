@@ -42,6 +42,9 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 There may be a few other minor packages to install, but these errors can typically be resolved with a quick Google search. These dependencies are contingent on the libraries installed previously like this:
+
 conda install tensorflow-estimator=2.1.0
-pip install ale-py
+
+pip install ale_py==0.7
+
 pip install gym[atari,accept-rom-license]==0.21.0
