@@ -52,4 +52,5 @@ pip install gym[atari,accept-rom-license]==0.21.0
 On mac it wont install gym becouse of ' '
 
 pip install gym\[atari\] -> This is how to install it on mac
+
 pip install 'gym[atari]' -> This is how to install it on mac
