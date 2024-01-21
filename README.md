@@ -1,6 +1,14 @@
 # Deep_Learing_TermPaper
  Term paper on Deep learning and reinforcment learning with Q network
 
+New articles and repos - > 
+
+[Atari with gifs](https://github.com/sudharsan13296/Deep-Reinforcement-Learning-With-Python/blob/master/16.%20Deep%20Reinforcement%20Learning%20with%20Stable%20Baselines/16.09.%20Training%20an%20agent%20to%20walk%20using%20TRPO.ipynb)
+
+[more games](https://github.com/shubhlohiya/playing-atari-with-deep-RL/blob/master/README.md)
+
+
+
 Main Article: [How to match DeepMind’s Deep Q-Learning score in Breakout](https://towardsdatascience.com/tutorial-double-deep-q-learning-with-dueling-network-architectures-4c1b3fb7f756)
 
 Main code: [DQN](https://github.com/fg91/Deep-Q-Learning)
