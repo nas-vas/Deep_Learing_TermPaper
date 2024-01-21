@@ -7,6 +7,8 @@ New articles and repos - >
 
 [more games](https://github.com/shubhlohiya/playing-atari-with-deep-RL/blob/master/README.md)
 
+For later main reasons to use NN and not standart ML for atari games
+
 
 
 Main Article: [How to match DeepMind’s Deep Q-Learning score in Breakout](https://towardsdatascience.com/tutorial-double-deep-q-learning-with-dueling-network-architectures-4c1b3fb7f756)
